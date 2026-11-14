@@ -1,12 +1,20 @@
-# Report answers and evidence checklist
+# From Git to Gold
 
-> **Screenshot filing made simple:** screenshots are grouped under `evidence/` by topic. The checklist is in [EVIDENCE_GUIDE.md](EVIDENCE_GUIDE.md). The same images are included in this report's appendix.
+## Data Engineering Assignment Report
 
-**Course:** Data Engineering  
-**Assignment:** From Git to Gold  
-**Student:** Vanisha Garg  
-**Roll number:** 23BCS254  
-**Repository:** https://github.com/Vanisha1606/freshcard-pipelines
+**Student**  
+Vanisha Garg
+
+**Roll number**  
+23BCS254
+
+**Course**  
+Data Engineering
+
+**Repository**  
+[Vanisha1606/freshcard-pipelines](https://github.com/Vanisha1606/freshcard-pipelines)
+
+---
 
 This report uses the assignment brief, instructor-supplied FreshCart materials, and the student's screenshots. The submitted FreshCart notebook is sanitized: instructor credentials and outputs were removed, and the currency rule and sixth quality check were added. Snowflake and RabbitMQ were run in the student's own environments. The report includes the available GitHub, Snowflake, RabbitMQ, and Mage run evidence and explains the assignment scenarios.
 
@@ -37,8 +45,6 @@ c58fd70 Add RabbitMQ topic dispatcher and driver scripts
 | `git remote add origin URL` | Local Git configuration | Records the remote URL under the name `origin`. |
 | `git push -u origin main` | Remote Git | Uploads local `main` commits and sets upstream tracking. |
 | `git pull origin main` | Local working folder and local Git | Fetches remote commits and integrates them into the current branch. |
-
-After `git commit`, a teammate cannot see the code on GitHub yet: the commit exists only in the local repository until pushed to a remote.
 
 ### A3. CI
 
