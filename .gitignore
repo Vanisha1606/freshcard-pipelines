@@ -8,6 +8,7 @@ __pycache__/
 .pytest_cache/
 .venv/
 .DS_Store
+submission.zip
 
 # Local Mage/AWS tunnel configuration; never publish credentials.
 .ssh_tunnel/
