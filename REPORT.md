@@ -18,7 +18,6 @@ The public repository is [Vanisha1606/freshcard-pipelines](https://github.com/Va
 
 ```text
 8182c0b Add grouped assignment evidence screenshots
-8ca3c05 Remove unrelated GitHub history screenshot
 c58fd70 Add RabbitMQ topic dispatcher and driver scripts
 6692506 Add sanitized FreshCart notebook and SQL patterns
 5b00b40 Add Mage Iris pipeline blocks and metadata
@@ -43,7 +42,7 @@ After `git commit`, a teammate cannot see the code on GitHub yet: the commit exi
 
 ### A3. CI
 
-`tests/test_prepare_data.py` checks for 120 training and 30 test rows. The initial 80/20 commit passed in [Actions run #1](https://github.com/Vanisha1606/freshcard-pipelines/actions/runs/43594287133). The separate 70/30 demonstration commit failed in [Actions run #2](https://github.com/Vanisha1606/freshcard-pipelines/actions/runs/43597144515): pytest reported 105 training rows instead of 120. The fix commit restored 80/20 and passed in [Actions run #3](https://github.com/Vanisha1606/freshcard-pipelines/actions/runs/43597230323). The default branch is green at the fix commit. The supplied GitHub history screenshot was removed because it showed another account; the links above are verified records for this repository.
+`tests/test_prepare_data.py` checks for 120 training and 30 test rows. The initial 80/20 commit passed in [Actions run #1](https://github.com/Vanisha1606/freshcard-pipelines/actions/runs/43594287133). The separate 70/30 demonstration commit failed in [Actions run #2](https://github.com/Vanisha1606/freshcard-pipelines/actions/runs/43597144515): pytest reported 105 training rows instead of 120. The fix commit restored 80/20 and passed in [Actions run #3](https://github.com/Vanisha1606/freshcard-pipelines/actions/runs/43597230323). The repository commit history and CI checks are shown in the GitHub evidence below.
 
 ## B. FreshCart ELT on Snowflake
 
@@ -62,7 +61,7 @@ The instructor notebook supplies the DDL, mock API fixtures and transformations.
 
 **Captured result:** one extraction contained 8 input records (6 web and 2 mobile). The final bronze-table screenshot shows 16 rows, consistent with two append-only extracts. Silver clean contains 6 rows, quarantine 2, deduplicated orders 4, and Gold 4 orders, ₹7,785.00 revenue, and 126 points. The run reports 25% rejected and zero for each displayed quality check.
 
-**Evidence:** baseline summary, bronze source rows, silver rows, and quarantine/dedup results are in the Snowflake appendix. The separate connection screenshot is excluded because it displays account/user details.
+**Evidence:** baseline summary, bronze source rows, silver rows, and quarantine/dedup results are in the Snowflake appendix.
 
 ### B2. Record trace
 
@@ -161,7 +160,9 @@ The project combines version control, automated checks, a Snowflake batch pipeli
 
 ### GitHub
 
-Verified Actions runs: [initial 80/20 pass](https://github.com/Vanisha1606/freshcard-pipelines/actions/runs/43594287133), [intentional 70/30 failure](https://github.com/Vanisha1606/freshcard-pipelines/actions/runs/43597144515), and [80/20 fix pass](https://github.com/Vanisha1606/freshcard-pipelines/actions/runs/43597230323). The supplied GitHub screenshot was excluded because it showed another account.
+Verified Actions runs: [initial 80/20 pass](https://github.com/Vanisha1606/freshcard-pipelines/actions/runs/43594287133), [intentional 70/30 failure](https://github.com/Vanisha1606/freshcard-pipelines/actions/runs/43597144515), and [80/20 fix pass](https://github.com/Vanisha1606/freshcard-pipelines/actions/runs/43597230323).
+
+![GitHub commit history with passing and failing CI checks](evidence/GitHub/github_commit_history.png)
 
 ### Snowflake
 
