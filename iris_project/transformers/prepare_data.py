@@ -19,7 +19,7 @@ def transform(df, *args, **kwargs):
 
     data = df.copy()
     target_column = kwargs.get('target_column', 'target')
-    test_size = kwargs.get('test_size', 0.3)
+    test_size = kwargs.get('test_size', 0.2)
     random_state = kwargs.get('random_state', 42)
 
     if target_column in data.columns:
