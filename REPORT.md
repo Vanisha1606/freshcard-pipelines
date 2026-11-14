@@ -1,6 +1,6 @@
 # Report answers and evidence checklist
 
-> Evidence is grouped under `evidence/` by topic. See [EVIDENCE_GUIDE.md](EVIDENCE_GUIDE.md) for the supplied screenshots and verified GitHub run links.
+> **Screenshot filing made simple:** screenshots are grouped under `evidence/` by topic. The checklist is in [EVIDENCE_GUIDE.md](EVIDENCE_GUIDE.md). The same images are included in this report's appendix.
 
 **Course:** Data Engineering  
 **Assignment:** From Git to Gold  
@@ -8,7 +8,7 @@
 **Roll number:** 23BCS254  
 **Repository:** https://github.com/Vanisha1606/freshcard-pipelines
 
-This report summarizes the supplied project files and evidence. The assignment brief was not present in the project folder, so deliverables are based on the requirements recorded in this report and `EVIDENCE_GUIDE.md`. The FreshCart notebook is sanitized: instructor credentials and outputs were removed, and the currency rule and sixth quality check were added. Snowflake and RabbitMQ results below are from the supplied screenshots. GitHub Actions results link to verified runs in this repository.
+This report uses the assignment brief, instructor-supplied FreshCart materials, and the student's screenshots. The submitted FreshCart notebook is sanitized: instructor credentials and outputs were removed, and the currency rule and sixth quality check were added. Snowflake and RabbitMQ were run in the student's own environments. The report includes the available GitHub, Snowflake, RabbitMQ, and Mage run evidence and explains the assignment scenarios.
 
 ## A. Git and CI/CD
 
