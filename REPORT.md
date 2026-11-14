@@ -22,9 +22,10 @@ This report uses the assignment brief, instructor-supplied FreshCart materials, 
 
 ### A1. Repository
 
-The public repository is [Vanisha1606/freshcard-pipelines](https://github.com/Vanisha1606/freshcard-pipelines). Key focused commits, newest first (the report refresh is not listed here):
+The public repository is [Vanisha1606/freshcard-pipelines](https://github.com/Vanisha1606/freshcard-pipelines). Key project commits, newest first:
 
 ```text
+d456705 Add GitHub history evidence and update report
 8182c0b Add grouped assignment evidence screenshots
 c58fd70 Add RabbitMQ topic dispatcher and driver scripts
 6692506 Add sanitized FreshCart notebook and SQL patterns
